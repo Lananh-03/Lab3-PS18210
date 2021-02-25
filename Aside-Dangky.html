@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ps18210-vuthilananh</title>
+    <link href="layout.css" rel="stylesheet">
+</head>
+<body>
+    <center>
+      <header>
+        <div class="page"><a>
+            <img src="image/anhbia.jpg" width: 1200px; height: 344px; alt="img Fpt"/>
+             <hr/>
+      </header>
+      <nav>
+        <a href="1_trangchu.html"> Trang chủ </a>|   
+        <a href="2_Gioithieu.html"> Giới thiệu </a>|
+        <a href="3_Lienhe.html"> Liên hệ </a>|
+        <a href="4_Gopy.html"> Góp ý </a>|
+        <a href="5_Hoidap.html"> Hỏi đáp </a>
+      </nav>     
+      <section>
+        <article>
+            <h2>Đăng ký thành viên</h2>
+          <form action="xuly.php" method="post" enctype="multipart/form-data">
+          <div class="form-group">
+            <label>Username</label>
+            <input type="text" name="username" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input type="Password" name="Password" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Full name</label>
+            <input type="text" name="Full name"class="form-control">
+          </div>
+          <fieldset>
+            <legend>Giới Tính: </legend>
+            <label><input type="radio" name="gender" value="female" checked="checked"/>Nam
+            <input type="radio" name="gender" value="male"/>Nữ
+            <input type="radio" name="gender" value="male"/>Khác</label>
+          </fieldset><br/>
+          <fieldset>
+            <legend>Sở Thích: </legend>
+            <label><input type="checkbox">Ăn</label>
+            <label><input type="checkbox">Ngủ</label>
+            <label><input type="checkbox">Thư giãn</label>
+          </fieldset><br/>
+          <fieldset>
+            <legend>Môn học</legend>
+            <label><input type="checkbox" name="subject" value="yoga">Yoga</label>
+            <label><input type="checkbox" name="subject" value="thien">Thiền</label>
+            <label><input type="checkbox" name="subject" value="tinh_tam">Tịnh tâm</label>
+          </fieldset>
+          <div>
+            <label>Ngày học</label>
+            <input type="date" name="ngayhoc" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Học tại cơ sở</label>
+            <select>
+              <option class="form-control">Nguyễn Kiệm</option>
+              <option class="form-control">Nam Kỳ Khởi Nghĩa</option>
+              <option class="form-control">Công viên phần mềm Quang Trung</option>
+            </select>
+          </div>
+          <div>
+            <label>  Photo</label>
+            <input type="file" name="Photo" class="form-control">
+          </div>
+          <div>
+            <label>Ghi chú</label><br/>
+            <textarea rows="10" cols="80">...</textarea>
+          </div>
+          <hr/>
+          <div>
+            <button type="reset">Reset</button>
+            <button type="submit"><a href="1_Trangchu.html"> ĐĂNG KÝ </a></button>
+          </div>
+          </form>
+        </article>
+        <aside>
+          <ul class="vmenu">
+            <li><a href="Aside-Dangnhap.html">Đăng nhập</a></li>
+            <li><a href="Aside-Dangky.html">Đăng ký</a></li>
+            <li><a href="Aside-BhOnline.html">Bài học online</a></li>
+            <li><a href="Aside-BtThuchanh.html">Bài tập thực hành</a></li>
+            <li><a href="Aside-BtLon-ASM.html">Bài tập lớn - Assignment</a></li>
+          </ul>
+        </aside>
+      </section>
+      <footer>
+        <br>
+        Người thực hiện : Vũ Thị Lan Anh <br>
+        SĐT liên hệ: 0987 678 303 <br>
+        Chịu trách nhiệm bởi công ty TNHH ABCD <br>
+      </footer>
+    </center>
+  </body>
+  </html>

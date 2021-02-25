@@ -1,0 +1,187 @@
+body{
+    padding: 0px;
+}
+#page{
+    width: 1000px;
+    margin: 0 auto;
+}
+header{
+    height: auto;
+    background: url('pic2.png') no-repeat left center ;
+}
+nav{
+    line-height: 80px;
+    background-color: rgb(0, 255, 213);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 35px;
+}
+section{
+    width: 100%;
+}
+article{
+    background-color: rgb(255, 47, 220);
+    min-height: 1300px;
+    width: 75%;
+    float: left;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+aside{
+    min-height: 200px;
+    width: 25%;
+    float: left;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    color:rgb(255, 0, 166)
+}
+footer{
+    clear: both;
+    height: 150px;
+    background-color: rgb(0, 255, 234);
+    border-top: 3px double rgb(0, 204, 255);
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+/*MENU TRONG ASIDE*/
+ul.vmenu{
+    margin: 10px 0px;
+    padding: 0px 5px;
+    border-radius: 5px 5px;
+    box-shadow: 0 0 5px rgb(0, 68, 255);
+    list-style: none;
+}
+ul.vmenu>li>a{
+    display: block;
+    line-height: 50px;
+    text-decoration: none;
+    padding-left:50px;
+    border-bottom: 1px dotted rgb(255, 0, 166);
+    color:rgb(55, 0, 255);
+    font-variant: small-caps;
+    background: url('Untitled.png') no-repeat left center;
+}
+ul.vmenu>li>a:hover{
+    color:deeppink;
+    font-weight: bolder;
+    background: url('pic3.png') no-repeat left center;
+}
+/* SẢN PHẨM */
+.col-25{
+    width: 25%;
+    float: left;
+}
+.prod{
+    border-radius: 10px;
+    box-shadow: 0 0 5px chartreuse;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    width: 500px; height: 640px;
+    background-color: rgb(0, 255, 242);
+    float: left;
+    left: 200px; bottom: 30px;
+    /* left: 0px; top: 0px; */
+    z-index: 3;
+}
+.prod>FPOLY{
+    font-variant: small-caps;
+    color:rgb(255, 94, 0);
+    font-weight: bold;
+    margin-top: 10%;
+}
+.prod.image{
+    max-width: 98%;
+    height: 400px;
+    margin-bottom: 10px;
+    position: absolute;
+    border-radius: 5px 5px 0px 0px;
+    left: 5px; top: 60px;
+}
+.prod>.price{
+    color:rgb(255, 0, 242);
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
+    font-variant: small-caps;
+    font-weight: bold;
+    float: left;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+.prod>.icons{
+    position:absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 80px; height: 300px;
+    padding: 80px 20px 20px 200px;
+}
+.boxchuaicon{
+    width: 50px;height: 250px;
+    background-color: none;
+    position: relative;
+    margin:10px;
+    padding: 35px 35px;
+    z-index: 4;
+}
+.icontym{
+    width: 40px;height: 60px;  
+}
+.icongift{
+    width: 38px;height: 80px;
+}
+.icongio{
+    width: 40px;height: 80px; 
+}
+.prod>.iconloa{
+    position:absolute;
+    top: 3px;
+    right: 3px;
+    border-radius: 30px 30px 30px 30px;
+    width: 50px;height: 50px; 
+}
+/*Đăng ký*/
+form{
+    width: 1000px; height: auto;
+    border: 1px solid rgb(255, 0, 200);
+    border-radius: 10px; padding: 20px;
+    text-align: left;
+    /* màu nền */
+    background-color: rgb(0, 255, 255);
+    /* ảnh nền */
+    /*
+    background-image: url () ;
+    background-size: 130%;
+    background-repeat: no-repeat ;
+    */
+}
+.form-group{
+    margin:30px 10px;
+}
+.form-control{
+    width: 98%;
+    padding: 5px;
+    width: 300px;height: 30px;
+    font-variant: small-caps;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    border-radius: 0 0 3px ;
+}
+.text{
+    background-color: rgb(255, 0, 179);
+    margin-top: 10px;
+    border: 1px solide gray;
+    box-shadow: 0px 1px 1px blueviolet;
+    width: 80px; height: 40px;
+}
+.textarea{
+    font-size: 100px;
+}
+.text{
+    background-color: coral;
+    margin-top: 10px;
+    border: 1px solide gray;
+    box-shadow: 0px 1px 1px blueviolet;
+}
